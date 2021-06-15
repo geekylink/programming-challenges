@@ -1,0 +1,20 @@
+How many possible paths from top-left spot to bottom-right spot, using only down and right
+
+So:
+1. down, down, down, right
+2. down, right, down, down
+3. down, down, right, down
+4. right, down, down, down
+
+Grid:
+O-
+--
+--
+-G
+
+are all valid for a 2x4 grid.
+
+Solutions:
+
+* dynamic programming
+* constant time math sol?
