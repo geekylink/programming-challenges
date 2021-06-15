@@ -14,6 +14,6 @@ impl Solution {
             revStr.push_str(" ");
         }
         
-        revStr
+        revStr.trim_end().to_string()
     }
 }
